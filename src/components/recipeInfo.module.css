@@ -1,0 +1,33 @@
+.recipeInfo{
+    border-radius: 10px;
+    box-shadow: 0px 5px 20px black;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background: #1f2223 ;
+    align-items: center;
+    min-width: 40%;
+    color:white;
+
+}
+
+.recipeInfo a {
+    color: #1872a4;
+    text-decoration: none;
+}
+
+.recipeInfo h3 {
+    margin: 0;
+    text-decoration: bold;
+}
+
+.recipeInfo h4 {
+    margin-bottom: 5px;
+}
+
+.image{
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+}

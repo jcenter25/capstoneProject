@@ -1,0 +1,122 @@
+.Home {
+  min-height: 100vh;
+  background: #181a1b; 
+}
+
+.Home h1 {
+  color: white;
+  margin-top: 0;
+  padding-left: 10px;
+  padding-top: 10px;
+}
+
+.query {
+  padding-top: 20px;
+  font-size: large;
+  color:white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.search-form{
+  min-height: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.search-bar{
+  width: 50%;
+  border: none;
+  height: 30px;
+  padding: 10px;
+  font-size: 30px;
+}
+
+.search-button{
+  background: #1872a4;
+  border: none;
+  height: 50px;
+  padding: 10px 20px;
+}
+
+.search-options{
+  background: none;
+  border: none;
+  padding: 10px 20px;
+  color: white;
+  font-size: large;
+}
+
+.recipeInfo{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 30px;
+  background: #2b3672;
+  
+}
+
+.navbar * {
+  width: 40%;
+  display: flex;
+  text-align: center;
+  justify-content: space-around;
+  align-items: center;
+  list-style: none;
+  color: rgb(231, 64, 13);
+  text-decoration: none;
+  
+}
+
+.about {
+  margin: 0;
+  margin-top: 0;
+  padding:0;
+  box-sizing: border-box;
+  font-size: 10px;
+  background: #181a1b; 
+}
+
+.container {
+  max-width: 1100px;
+  margin-top: 0;
+  margin: 0 auto;
+  padding: 0 3px;
+  text-align: center;
+}
+
+.about h1 {
+  color: white;
+  font-size: 80px;
+  font-weight: 700;
+  letter-spacing: 8px;
+  margin-bottom: 10px;
+}
+
+.about h2 {
+  color: white;
+  font-size: 60px;
+  font-weight: 400;
+}
+
+.about image {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-radius: 50%;
+}
+
+.about p {
+  font-size: 20px;
+  color: white;
+  line-height: 10px;
+  margin-bottom: 30px;
+  padding-bottom: 20px;
+}
