@@ -37,7 +37,7 @@ const DisplayRecipe = ({key, title,url,image, ingredients, source}) => {
                 ))}
             </ul>
             <img className={style.recipeInfo} src={image} alt=""></img>
-            <Button //save recipe button WIP
+            <Button
               color="primary" 
               variant="contained"
               endIcon={<SaveIcon />}

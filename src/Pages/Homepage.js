@@ -1,7 +1,6 @@
 import React,{useState, useEffect} from 'react'; //import useEffect
 import DisplayRecipe from '../components/DisplayRecipe'; //import the recipe functions from Recipe.js
 import * as FaIcons from 'react-icons/fa';
-//import {returnOptions} from '../components/SearchOptions';
 import {SearchOptions} from '../components/SearchOptions';
 
 
@@ -41,7 +40,6 @@ const Homepage = () => {
 
       const data = await response.json(); //contains recipe array
       setRecipes(data.hits);
-      console.log(data.hits);
   }
   
   const searchHandler = e => {

@@ -1,5 +1,3 @@
-//WIP
-
 import React from 'react';
 import style from './recipeInfo.module.css';
 import Button from '@mui/material/Button'
@@ -17,7 +15,7 @@ const DisplaySavedRecipe = ({url}) => {
         console.log(index);
         if (index > -1) {
           rlist.splice(index, 1);
-          console.log("spliced")
+         //console.log("spliced")
         }
         
         setCookie("savedRecipes",rlist, {
@@ -25,7 +23,6 @@ const DisplaySavedRecipe = ({url}) => {
           });
     };
 
-    //console.log({image});
     return(
         <div className={style.recipeInfo}>
             <h1><a href={url}>{url}</a></h1>
@@ -44,6 +41,3 @@ const DisplaySavedRecipe = ({url}) => {
 
 export default DisplaySavedRecipe; //allows us to use the recipe function in other files
 
-{/* <h1><a href={url}>{title}</a></h1>
-            <div>{source}</div>
-            <img className={style.recipeInfo} src={image} alt=""></img> */}

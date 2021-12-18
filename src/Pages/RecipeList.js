@@ -1,5 +1,3 @@
-//WIP
-
 import React,{useState, useEffect} from 'react'; //import useEffect
 import DisplaySavedRecipe from '../components/DisplaySavedRecipe'
 import {useCookies} from 'react-cookie'
@@ -10,12 +8,12 @@ function RecipeList() {
     const [cookies, setCookie] = useCookies(["savedRecipes"]);
    
 
-   useEffect(() => { //takes a function as its parameter and runs every time the page renders or re-renders
+  //  useEffect(() => { //takes a function as its parameter and runs every time the page renders or re-renders
         
-    console.log(cookies.savedRecipes);
+  //   console.log(cookies.savedRecipes);
   
 
-   }, []);
+  //  }, []);
 
    
    
