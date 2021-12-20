@@ -14,7 +14,7 @@ const Homepage = () => {
   //updates the variable reactively by re-rendering the page if the variable changes. 
   const [recipes, setRecipes] = useState([]); //array of recipe results
   const [search, setSearch] = useState(""); //search bar value
-  const [query, setQuery] = useState("tomatoes"); //current search query
+  const [query, setQuery] = useState(""); //current search query
   const [searchOptions, setSearchOptions] = useState(``); //open and close search options
 
 
